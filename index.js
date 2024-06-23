@@ -34,7 +34,7 @@ client.on('ready', async () => {
     .setAssetsLargeText('Lyra') //Văn bản khi bạn di chuột vào Hình ảnh lớn
     //.setAssetsSmallImage('https://media.discordapp.net/attachments/1204070941836054539/1250521568824655892/bun1.jpg?ex=666be737&is=666a95b7&hm=a7bcc94bc33a94c4a290a2dd7b8dc4cecf7b059d6704423910f411624761c014&=&format=webp&width=492&height=655') //Bạn có thể đặt liên kết ở dạng tenor hoặc discord, v.v.
     .setAssetsSmallText('Meow Meow') //Văn bản khi bạn di chuột vào Hình ảnh nhỏ
-    .addButton('Facebook', 'https://facebook.com/turtle2601')
+    .addButton('Facebook', 'https://www.facebook.com/do.quang.927980')
     .addButton('Discord', 'https://discord.gg/muffinie');
    
 
