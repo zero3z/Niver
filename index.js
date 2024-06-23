@@ -26,12 +26,12 @@ client.on('ready', async () => {
     .setApplicationId('1150928778965565500')
     .setType('LISTENING')
     .setURL('https://youtube.com') //Must be a youtube video link 
-    .setState('BunBunBun')
-    .setName('Rùa')
-    .setDetails(`Rùa`)
+    .setState('Klee')
+    .setName('Rin')
+    .setDetails(`Rin`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1247530935042310225/1252777826961063956/7E4D9D97-6F79-4B5A-8151-CE81DFE9AF59.jpg?ex=66796285&is=66781105&hm=0083ed9223b48222e8f93521723f8c0b1c2bb5109f727eff9dd4efa0fec0c0dd&') //Bạn có thể đặt liên kết ở dạng tenor hoặc discord, v.v.
-    .setAssetsLargeText('Em bé xíu gọi là em bé iu') //Văn bản khi bạn di chuột vào Hình ảnh lớn
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1002089709390024764/1254435844731830282/shelter3.png?ex=66797beb&is=66782a6b&hm=11086d6ff03a3bd0a749f923ea1ea8d357eab12efc3dfac58babc1d786561d96&') //Bạn có thể đặt liên kết ở dạng tenor hoặc discord, v.v.
+    .setAssetsLargeText('Lyra') //Văn bản khi bạn di chuột vào Hình ảnh lớn
     //.setAssetsSmallImage('https://media.discordapp.net/attachments/1204070941836054539/1250521568824655892/bun1.jpg?ex=666be737&is=666a95b7&hm=a7bcc94bc33a94c4a290a2dd7b8dc4cecf7b059d6704423910f411624761c014&=&format=webp&width=492&height=655') //Bạn có thể đặt liên kết ở dạng tenor hoặc discord, v.v.
     .setAssetsSmallText('Meow Meow') //Văn bản khi bạn di chuột vào Hình ảnh nhỏ
     .addButton('Facebook', 'https://facebook.com/turtle2601')
@@ -45,7 +45,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Rùa`;
+      const newDetails = `Rin`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
